@@ -1,3 +1,15 @@
+--Tabela Resumo de Viagens--
+CREATE OR REPLACE TABLE analise_citibike.resumo_viagens AS
+SELECT 
+    start_station_name,
+    EXTRACT(HOUR FROM starttime) AS hora_inicio,
+    AVG(tripduration / 60) AS media_minutos,
+    COUNT(*) AS total_viagens
+FROM `bigquery-public-data.new_york_citibike.citibike_trips`
+WHERE start_station_name IS NOT NULL
+GROUP BY 1, 2
+ORDER BY total_viagens DESC
+
 --Tráfego por Estação(%)--
 SELECT 
     start_station_name,
