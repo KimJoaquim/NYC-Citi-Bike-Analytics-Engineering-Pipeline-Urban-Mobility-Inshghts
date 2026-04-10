@@ -27,13 +27,14 @@ Ao realizar o perfilamento dos dados, identifiquei que aproximadamente 10% das e
 
 ---
 
-📊 Insights Estratégicos
+## 📊 Insights Estratégicos
 Picos de Demanda: Identificação dos horários críticos (08h e 17h), essenciais para logística de reposição de bicicletas.
 
 Representatividade: Análise percentual onde descobri que as Top 10 estações são responsáveis por uma fração distribuída, indicando alta capilaridade da rede.
 
 Qualidade de Dados: Detecção de 10% de registros nulos, gerando uma oportunidade de melhoria na governança da coleta.
 
+---
 
 ## 💻 SQL Avançado em Ação
 
