@@ -9,7 +9,7 @@ FROM `bigquery-public-data.new_york_citibike.citibike_trips`
 WHERE start_station_name IS NOT NULL
 GROUP BY 1, 2
 ORDER BY total_viagens DESC
-
+    
 --Tráfego por Estação(%)--
 SELECT 
     start_station_name,
