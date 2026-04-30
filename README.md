@@ -1,4 +1,4 @@
-# NYC-Citi-Bike-Analytics-Engineering-Pipeline-Urban-Mobility-Inshghts
+#nyc-citibike-analytics-pipeline
 Um projeto focado em transformar dados brutos de micromobilidade urbana em inshghts estratégicos, utilizando a Modern Data Stack (Google Cloud Platform &amp; BigQuery).
 
 Este projeto demonstra a construção de um pipeline de dados ponta a ponta, focado em transformar milhões de registros de viagens de micromobilidade em Nova York em insights estratégicos. O foco principal foi a aplicação de conceitos de **Analytics Engineering** para otimizar custos e performance no Google Cloud Platform.
